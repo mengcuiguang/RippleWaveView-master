@@ -1,5 +1,5 @@
 # RippleWaveView-master
-炫酷的咻一咻 认证
+炫酷的咻一咻 动画效果
 
 ![image](https://github.com/mengcuiguang/RippleWaveView-master/blob/master/test.gif )  
 

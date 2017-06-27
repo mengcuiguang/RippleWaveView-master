@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:RippleWaveView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.meng.ripplewaveview.RippleSpreadView
+        android:id="@+id/rsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        RippleWaveView:rsv_innerAnimDuration="3000"
+        RippleWaveView:rsv_innerCircleColor="#41AF35"
+        RippleWaveView:rsv_innerSize="60dp"
+        RippleWaveView:rsv_outAnimDuration="3000"
+        RippleWaveView:rsv_outSize="180dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>
